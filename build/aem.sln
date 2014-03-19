@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aemctl", "aemctl.vcproj", "{5E4EDDD5-750F-4E53-ACD0-A9E22A8BEACE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aemtest", "aemtest.vcproj", "{9612D51B-5782-4B4B-8B88-73440424D5C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5E4EDDD5-750F-4E53-ACD0-A9E22A8BEACE} = {5E4EDDD5-750F-4E53-ACD0-A9E22A8BEACE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aem", "aem.vcproj", "{5A23B11A-1505-4C7E-89DE-D46AF4ACB228}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E4EDDD5-750F-4E53-ACD0-A9E22A8BEACE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E4EDDD5-750F-4E53-ACD0-A9E22A8BEACE}.Debug|Win32.Build.0 = Debug|Win32
+		{5E4EDDD5-750F-4E53-ACD0-A9E22A8BEACE}.Release|Win32.ActiveCfg = Release|Win32
+		{5E4EDDD5-750F-4E53-ACD0-A9E22A8BEACE}.Release|Win32.Build.0 = Release|Win32
+		{9612D51B-5782-4B4B-8B88-73440424D5C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9612D51B-5782-4B4B-8B88-73440424D5C0}.Debug|Win32.Build.0 = Debug|Win32
+		{9612D51B-5782-4B4B-8B88-73440424D5C0}.Release|Win32.ActiveCfg = Release|Win32
+		{9612D51B-5782-4B4B-8B88-73440424D5C0}.Release|Win32.Build.0 = Release|Win32
+		{5A23B11A-1505-4C7E-89DE-D46AF4ACB228}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A23B11A-1505-4C7E-89DE-D46AF4ACB228}.Debug|Win32.Build.0 = Debug|Win32
+		{5A23B11A-1505-4C7E-89DE-D46AF4ACB228}.Release|Win32.ActiveCfg = Release|Win32
+		{5A23B11A-1505-4C7E-89DE-D46AF4ACB228}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
